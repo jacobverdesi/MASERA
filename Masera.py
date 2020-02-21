@@ -6,7 +6,6 @@ def Agent(num):
     print("Agent #",num)
     return
 
-
 def main():
     agents=[]
     for i in range(5):
