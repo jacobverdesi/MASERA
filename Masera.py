@@ -8,6 +8,7 @@ def main():
     agents=[]
     for i in range(5):
         t = threading.Thread(target=Agent(i))
+
         agents.append(t)
         t.start()
 
