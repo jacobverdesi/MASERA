@@ -1,7 +1,5 @@
 import threading
 
-
-
 def Agent(num):
     print("Agent #",num)
     return
